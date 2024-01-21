@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
     <!-- tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- EB Garamond and poppins google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/fc864e6762.js" crossorigin="anonymous"></script>
+    <style>
+        .font-garamond {
+            font-family: 'EB Garamond', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header class="container mx-auto px-4 lg:px-24 mt-16">
+        <nav class="flex flex-col lg:flex-row lg:justify-between">
+            <!-- image div -->
+            <div>
+                <img src="images/logo2.png" alt="">
+            </div>
+            <!-- list div -->
+            <div class="flex gap-1 lg:gap-8 text-[#707070] text-lg font-poppins">
+                <!-- first list -->
+                <div class="flex items-center">Home</div>
+                <!-- second list -->
+                <div class="flex items-center gap-1 lg:gap-3">
+                    <p>Services</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <!-- third list -->
+                <div class="flex items-center gap-1 lg:gap-3">
+                    <p>Cases</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <!-- forth list -->
+                <div class="flex items-center gap-1 lg:gap-3">
+                    <p>Blog</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <!-- fifth list -->
+                <div class="flex items-center gap-1 lg:gap-3">
+                    <p>Contact Us</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <!-- button div -->
+            <div>
+                <button class="bg-[#B68C5A] rounded-lg text-white font-poppins text-lg font-semibold py-4 px-6">Free Consultation</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
